@@ -11,3 +11,8 @@
 
 ---
 
+## ERD
+
+![image](https://github.com/user-attachments/assets/c1308ed8-3cd7-4a35-96bf-1466213015ee)
+
+---
