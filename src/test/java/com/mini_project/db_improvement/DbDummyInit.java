@@ -57,7 +57,7 @@ public class DbDummyInit {
                 .toList();
         userRepo.saveAll(users);
 
-        // 3) Products 20,000개
+        // 3) Products 10,000개
         List<Product> products = IntStream.rangeClosed(1, 10000)
                 .mapToObj(i -> {
                     Category c = categories.get(ThreadLocalRandom.current().nextInt(categories.size()));
