@@ -16,3 +16,19 @@
 ![image](https://github.com/user-attachments/assets/c1308ed8-3cd7-4a35-96bf-1466213015ee)
 
 ---
+
+## 더미 데이터 설정
+- 카테고리 500개
+- 유저 10,000명
+- 상품 10,000개
+- 주문 30,000건
+- 주문상품 약 90,000건
+
+---
+
+
+## 성능 테스트 간단 비교(local 에서만 진행!)
+- 상품에서 카테고리를 인덱스로 설정한것과 안한 것 조회.<br>
+![image](https://github.com/user-attachments/assets/041f8570-5291-461d-80ad-c7af83a8f58d) <br>
+대략 평균 4배정도 차이 발생. 단, 다른 table과 join같은건 하지 않고 product내에서만 진행한 결과.
+
