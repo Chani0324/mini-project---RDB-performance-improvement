@@ -27,7 +27,7 @@
 ---
 
 
-## 성능 테스트 간단 비교(local 에서만 진행!)
+## 성능 테스트 간단 비교(local 에서만 진행!, 기본적으로 spring boot test로 진행하고 mysql과 네트워크 I/O는 존재하는걸 고려!)
 - 상품에서 카테고리를 인덱스로 설정한것과 안한 것 조회.<br>
 ![image](https://github.com/user-attachments/assets/041f8570-5291-461d-80ad-c7af83a8f58d) <br>
 대략 평균 4배정도 차이 발생. 단, 다른 table과 join같은건 하지 않고 product내에서만 진행한 결과.
